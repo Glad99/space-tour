@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Crew = () => {
 const [crew] = useState(data.crew);
-const [index, setIndex] = useState(0)
+const [index, setIndex] = useState(0);
 const [isActive, setIsActive] = useState(0)
 
 console.log(crew)
@@ -23,7 +23,7 @@ function handleClick (args){
         backgroundRepeat: "no-repeat",
         backgroundImage: `url(${bg})`,
       }}
-      className="crew h-screen flex gap-40 px-24 overflow-hidden  py-36"
+      className="crew h-screen flex gap-44 px-20 overflow-hidden  py-36"
     >
       <div className="details flex flex-col gap-5">
         <div className="text-white  ">

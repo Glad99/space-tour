@@ -116,8 +116,35 @@
   font-weight: 400;
   font-style: normal;
 }
-.destination{
+
+.bgDesktop{
   background-image: url("./assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgTablet{
+  background-image: url("./assets/destination/background-destination-tablet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgMobile{
+  background-image: url("./assets/destination/background-destination-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgDesktop-home{
+  background-image: url("./assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgTablet-home{
+  background-image: url("./assets/home/background-home-tablet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgMobile-home{
+  background-image: url("./assets/home/background-home-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

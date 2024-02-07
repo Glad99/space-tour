@@ -17,18 +17,18 @@ const [isActive, setIsActive] = useState(0)
     setIsActive(args)
   }
   return (
-    <div className="destination h-screen text-white flex justify-between items-center px-40">
+    <div className="destination  lg:bgDesktop md:bgTablet bgMobile h-full lg:h-screen text-white flex justify-between lg:items-center lg:px-40">
       <div className="pt-28">
-        <p className="barlow-condensed-regular text-2xl   mb-14 tracking-normal md:tracking-widest flex gap-5">
+        <p className="barlow-condensed-regular lg:text-2xl   mb-14 tracking-normal md:tracking-widest flex gap-5 text-center px-28 text-[18px]">
           <span className="text-gray-500">
             <b>01</b>
           </span>
           PICK YOUR DESTINATION
         </p>
-        <div className="mt-4 pb-2 pl-14 flex gap-64 ">
-          <img className="h-[330px]  " src={current.images.webp} alt="" />
+        <div className="flex-col lg:flex-row w-full lg:gap-60 gap-20 lg:mt-4  lg:pb-2  pl-14 flex lg:mx-20">
+          <img className="lg:h-[330px] h-[20rem] mt-1" src={current.images.webp} alt="" />
           <div className="">
-            <div className="flex gap-5 text-sm text-[#D0D6F9] cursor-pointer *:py-3 *:px-1 ">
+            <div className="flex gap-5 text-sm text-[#D0D6F9] cursor-pointer *:py-3 *:px-1 items-center ">
               <p
                 className={`${
                   isActive === 0 ? "border-b-2 border-white text-white" : ""
@@ -69,7 +69,7 @@ const [isActive, setIsActive] = useState(0)
               {current.description}
             </p>
             <hr className="absolute mt-6  border-slate-700 w-[23rem]" />
-            <div className="flex mt-10 gap-16">
+            <div className="flex lg:flex-row flex-col justify-center lg:justify-center items-center lg:items-start mt-10 gap-16">
               <div>
                 <p className="barlow-condensed-thin text-[12px] text-[#D0D6F9]">
                   AVG. DISTANCE

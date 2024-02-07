@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import logo from "../assets/shared/logo.svg"
-import Technology from "../pages/Technology"
 import { TfiMenu } from "react-icons/tfi";
 import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
